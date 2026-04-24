@@ -106,6 +106,12 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
 ]
 
+CORS_ALLOW_CREDENTIALS = True
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://porsche-undecreasing-jamee.ngrok-free.dev"
+]
+
 
 # Graphene
 GRAPHENE = {
